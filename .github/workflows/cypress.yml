@@ -17,5 +17,6 @@ jobs:
         with:
           browser: chrome
           record: true
+          config-file: cypress.ci.config.js
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
