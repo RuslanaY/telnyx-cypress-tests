@@ -46,24 +46,26 @@ The test plan includes 10 test cases covering:
 
 ## Project Structure
 
+```
 .
-├── .github/workflows/
-│ └── cypress.yml
+├── .github/
+│   └── workflows/
+│       └── cypress.yml
 ├── cypress/
-│ ├── e2e/
-│ │ ├── footer_and_routes.cy.js
-│ │ ├── home.cy.js
-│ │ ├── phone_numbers.cy.js
-│ │ ├── pricing.cy.js
-│ │ └── signup_mission_control.cy.js
-│ ├── fixtures/
-│ └── support/
+│   ├── e2e/
+│   │   ├── footer_and_routes.cy.js
+│   │   ├── home.cy.js
+│   │   ├── phone_numbers.cy.js
+│   │   ├── pricing.cy.js
+│   │   └── signup_mission_control.cy.js
+│   ├── fixtures/
+│   └── support/
 ├── docs/
-│ └── TelnyxCypressTestPlan.xlsx
+│   └── TelnyxCypressTestPlan.xlsx
 ├── cypress.config.js
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## Implemented Test Suites
