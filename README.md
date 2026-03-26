@@ -46,6 +46,7 @@ The test plan includes 10 test cases covering:
 
 ## Project Structure
 
+.
 ├── .github/workflows/
 │ └── cypress.yml
 ├── cypress/
